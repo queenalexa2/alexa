@@ -1,5 +1,5 @@
 FROM blackamda/queenamdi:public
-O
+
 RUN git clone https://github.com/queenalexa2/alexa /root/alexa
 WORKDIR /root/alexa/
 ENV TZ=Asia/Colombo
